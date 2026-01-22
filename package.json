@@ -1,0 +1,43 @@
+{
+  "name": "bitverse-clone",
+  "version": "1.0.0",
+  "description": "Full-featured clone of Bitverse cryptocurrency trading platform - Super Dex, RealFi, BV Token Airdrop",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "dev": "http-server -c-1 -g",
+    "build": "echo 'No build required - static site'",
+    "test": "echo 'Add tests here'",
+    "deploy": "npm run build && echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "bitverse",
+    "dex",
+    "crypto",
+    "trading",
+    "defi",
+    "blockchain",
+    "ethereum",
+    "web3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bitverse-clone"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/bitverse-clone/issues"
+  },
+  "homepage": "https://github.com/yourusername/bitverse-clone#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "cssnano": "^5.1.15",
+    "uglify-js": "^3.17.4"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

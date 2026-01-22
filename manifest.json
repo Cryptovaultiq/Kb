@@ -1,0 +1,47 @@
+{
+  "name": "Bitverse Clone",
+  "short_name": "Bitverse",
+  "description": "Full-featured clone of Bitverse cryptocurrency trading platform",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0a0e27",
+  "theme_color": "#00d4ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/screenshot-2.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Trade",
+      "url": "https://testnet.bitverse.zone/app/",
+      "description": "Open trading platform"
+    },
+    {
+      "name": "Download App",
+      "url": "https://www.bitverse.zone/download",
+      "description": "Download Bitverse mobile app"
+    }
+  ]
+}
